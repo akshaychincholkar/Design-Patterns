@@ -5,4 +5,10 @@ public class EagerInitializationSingleton {
     public static EagerInitializationSingleton getInstance(){
         return instance;
     }
+
+    //private constructor
+    private EagerInitializationSingleton(){}
+    public static void main(String[] args) {
+        System.out.println("Object is created at the class level");
+    }
 }

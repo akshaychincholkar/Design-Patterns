@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="First commit">
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Single eagarinitialization">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/creational/LazyInitializationSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/creational/StaticBlockSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/creational/EagerInitializationSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/creational/EagerInitializationSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +43,60 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.LazyInitializationSingleton">
+    <configuration name="EagerInitializationSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.EagerInitializationSingleton" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.creational.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyInitializationSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.LazyInitializationSingleton" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.creational.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlockSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.StaticBlockSingleton" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.creational.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LazyInitializationSingleton" />
+        <item itemvalue="Application.EagerInitializationSingleton" />
+        <item itemvalue="Application.StaticBlockSingleton" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679471389359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Single eagarinitialization">
+      <created>1680093380234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680093380234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Single eagarinitialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Single eagarinitialization" />
   </component>
 </project>
