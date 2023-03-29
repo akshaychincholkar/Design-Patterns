@@ -1,18 +1,18 @@
-package com.game.designpatterns.creational;
+package com.game.designpatterns.creational.singleton;
 
-public class BillPaghSingleton {
+public class BillPughSingleton {
     //private constructor
-    private BillPaghSingleton(){}
+    private BillPughSingleton(){}
 
     private static class BillPughHelper{
-        public static final BillPaghSingleton instance = new BillPaghSingleton();
-        public static BillPaghSingleton getInstance(){
+        public static final BillPughSingleton instance = new BillPughSingleton();
+        public static BillPughSingleton getInstance(){
             return instance;
         }
     }
 
     public static void main(String[] args) {
-        BillPaghSingleton instance = BillPughHelper.getInstance();
+        BillPughSingleton instance = BillPughHelper.getInstance();
         System.out.println("Notice the private inner static class that contains the instance of the\n" +
                 "singleton class. When the singleton class is loaded, SingletonHelper class is\n" +
                 "not loaded into memory and only when someone calls the getInstance\n" +

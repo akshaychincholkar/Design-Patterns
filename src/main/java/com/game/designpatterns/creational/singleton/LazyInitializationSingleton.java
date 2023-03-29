@@ -1,4 +1,4 @@
-package com.game.designpatterns.creational;
+package com.game.designpatterns.creational.singleton;
 
 public class LazyInitializationSingleton {
     private static LazyInitializationSingleton instance = null;
