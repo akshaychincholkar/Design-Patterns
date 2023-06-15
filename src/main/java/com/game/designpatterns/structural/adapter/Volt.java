@@ -15,4 +15,10 @@ public class Volt {
         this.volts = volts;
     }
 
+    @Override
+    public String toString() {
+        return "Volt{" +
+                "volts=" + volts +
+                '}';
+    }
 }
