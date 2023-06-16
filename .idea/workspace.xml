@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="adapter dp - volt class added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/SocketAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/SocketAdapterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/SocketAdapterObjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/Volt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/adapter/Volt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +52,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.game.designpatterns.structural.adapter.Client">
+  <component name="RunManager" selected="Application.com.game.designpatterns.structural.composite.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.factory.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.game.designpatterns.creational.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.singleton.EnumSingleton" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.creational.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.game.designpatterns.structural.composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.composite.Client" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.game.designpatterns.structural.composite.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.adapter.Client" />
         <item itemvalue="Application.com.game.designpatterns.creational.prototype.Client" />
         <item itemvalue="Application.com.game.designpatterns.creational.abstractfactory.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.EnumSingleton" />
       </list>
     </recent_temporary>
   </component>
