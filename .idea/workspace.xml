@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="adapter dp - volt class added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/composite/Triangle.java" afterDir="false" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="composite design pattern">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686771693594</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="composite design pattern">
+      <created>1686943820104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686943820104</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +243,7 @@
     <MESSAGE value="Prototype Design Pattern with implementation" />
     <MESSAGE value="adapter dp" />
     <MESSAGE value="adapter dp - volt class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter dp - volt class added" />
+    <MESSAGE value="composite design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite design pattern" />
   </component>
 </project>
