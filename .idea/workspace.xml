@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="composite design pattern">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="proxy design pattern basic implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/proxy/CommandExecutorProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.game.designpatterns.structural.composite.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.factory.Client" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.creational.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.game.designpatterns.structural.proxy.Client">
     <configuration name="com.game.designpatterns.creational.abstractfactory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.abstractfactory.Client" />
       <module name="Design-Patterns" />
@@ -114,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.game.designpatterns.structural.proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.proxy.Client" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.game.designpatterns.structural.proxy.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.composite.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.adapter.Client" />
         <item itemvalue="Application.com.game.designpatterns.creational.prototype.Client" />
         <item itemvalue="Application.com.game.designpatterns.creational.abstractfactory.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686943820104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="proxy design pattern basic implementation">
+      <created>1687026396896</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026396896</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +252,7 @@
     <MESSAGE value="adapter dp" />
     <MESSAGE value="adapter dp - volt class added" />
     <MESSAGE value="composite design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="composite design pattern" />
+    <MESSAGE value="proxy design pattern basic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy design pattern basic implementation" />
   </component>
 </project>
