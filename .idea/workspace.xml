@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="proxy design pattern complete implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/flightweight/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/flightweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/flightweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/flightweight/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Flyweight design Pattern implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/fascade/MySqlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/fascade/OracleHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687113650141</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Flyweight design Pattern implementation">
+      <created>1687197699712</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687197699712</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +270,7 @@
     <MESSAGE value="composite design pattern" />
     <MESSAGE value="proxy design pattern basic implementation" />
     <MESSAGE value="proxy design pattern complete implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy design pattern complete implementation" />
+    <MESSAGE value="Flyweight design Pattern implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight design Pattern implementation" />
   </component>
 </project>
