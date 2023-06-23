@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Fascade dp initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Color.java" afterDir="false" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Fascade dp commit - part 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/GreenColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/GreenColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/RedColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/RedColor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.com.game.designpatterns.structural.bridge.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.flightweight.Client" />
       <module name="Design-Patterns" />
@@ -64,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.game.designpatterns.creational.prototype.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.creational.prototype.Client" />
+    <configuration name="com.game.designpatterns.structural.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.adapter.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.creational.prototype.*" />
+          <option name="PATTERN" value="com.game.designpatterns.structural.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.game.designpatterns.structural.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.adapter.Client" />
+    <configuration name="com.game.designpatterns.structural.bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.bridge.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.structural.adapter.*" />
+          <option name="PATTERN" value="com.game.designpatterns.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.game.designpatterns.structural.bridge.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.proxy.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.composite.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.adapter.Client" />
-        <item itemvalue="Application.com.game.designpatterns.creational.prototype.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687288451369</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fascade dp commit - part 2">
+      <created>1687461282799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687461282799</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +289,7 @@
     <MESSAGE value="proxy design pattern complete implementation" />
     <MESSAGE value="Flyweight design Pattern implementation" />
     <MESSAGE value="Fascade dp initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fascade dp initial commit" />
+    <MESSAGE value="Fascade dp commit - part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fascade dp commit - part 2" />
   </component>
 </project>
