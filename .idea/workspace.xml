@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Fascade dp commit - part 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/GreenColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/GreenColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/RedColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/bridge/RedColor.java" afterDir="false" />
-    </list>
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Bridge design pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687461282799</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Bridge design pattern">
+      <created>1687547119305</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687547119305</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +290,7 @@
     <MESSAGE value="Flyweight design Pattern implementation" />
     <MESSAGE value="Fascade dp initial commit" />
     <MESSAGE value="Fascade dp commit - part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fascade dp commit - part 2" />
+    <MESSAGE value="Bridge design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge design pattern" />
   </component>
 </project>
