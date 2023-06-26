@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Decorator initial commit" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Decorator initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/decorator/CarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/decorator/LuxuryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/structural/decorator/SportsCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,26 +52,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.game.designpatterns.structural.bridge.Client">
+  <component name="RunManager" selected="Application.com.game.designpatterns.structural.decorator.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.flightweight.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.game.designpatterns.structural.flightweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.game.designpatterns.structural.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.adapter.Client" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.structural.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.game.designpatterns.structural.decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.decorator.Client" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.designpatterns.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.game.designpatterns.structural.proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.proxy.Client" />
       <module name="Design-Patterns" />
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.game.designpatterns.structural.decorator.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.bridge.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.proxy.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.composite.Client" />
-        <item itemvalue="Application.com.game.designpatterns.structural.adapter.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687637536019</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Decorator initial commit">
+      <created>1687725218657</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687725218657</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
