@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="Decorator design pattern" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="behavioral template dp - commit 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/behavioral/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/behavioral/template/GlassHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/behavioral/template/WoodenHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/behavioral/template/HouseTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/designpatterns/behavioral/template/HouseTemplate.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.game.designpatterns.structural.decorator.Client">
+  <component name="RunManager" selected="Application.com.game.designpatterns.behavioral.template.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.flightweight.Client" />
       <module name="Design-Patterns" />
@@ -61,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.game.designpatterns.structural.bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.bridge.Client" />
+    <configuration name="com.game.designpatterns.behavioral.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.behavioral.template.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.structural.bridge.*" />
+          <option name="PATTERN" value="com.game.designpatterns.behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.game.designpatterns.structural.composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.composite.Client" />
+    <configuration name="com.game.designpatterns.structural.bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.bridge.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.game.designpatterns.structural.composite.*" />
+          <option name="PATTERN" value="com.game.designpatterns.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.game.designpatterns.behavioral.template.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.decorator.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.bridge.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.game.designpatterns.structural.proxy.Client" />
-        <item itemvalue="Application.com.game.designpatterns.structural.composite.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687801098303</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="behavioral template dp - commit 1">
+      <created>1687891670985</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687891670985</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +327,7 @@
     <MESSAGE value="Bridge design pattern" />
     <MESSAGE value="Decorator initial commit" />
     <MESSAGE value="Decorator design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator design pattern" />
+    <MESSAGE value="behavioral template dp - commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="behavioral template dp - commit 1" />
   </component>
 </project>
