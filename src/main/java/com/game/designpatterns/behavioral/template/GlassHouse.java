@@ -8,6 +8,6 @@ public class GlassHouse extends HouseTemplate{
 
     @Override
     public void buildWalls() {
-        System.out.println("Building glass walls");
+        System.out.println("Building glass walls ");
     }
 }
