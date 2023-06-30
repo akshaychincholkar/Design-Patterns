@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="behavioral template dp - commit 1" />
+    <list default="true" id="d446a86b-88df-4b19-aa85-b57575892acb" name="Changes" comment="mediator dp - initial setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +47,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.game.designpatterns.behavioral.mediator" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.com.game.designpatterns.behavioral.template.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.designpatterns.structural.flightweight.Client" />
@@ -293,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687981954346</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="mediator dp - initial setup">
+      <created>1688063154676</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688063154676</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +341,7 @@
     <MESSAGE value="Decorator initial commit" />
     <MESSAGE value="Decorator design pattern" />
     <MESSAGE value="behavioral template dp - commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="behavioral template dp - commit 1" />
+    <MESSAGE value="mediator dp - initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="mediator dp - initial setup" />
   </component>
 </project>
